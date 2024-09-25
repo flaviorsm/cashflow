@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CFM.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CFM.Api.Controllers.ConsolidadoController.ConsolidarPorDia(System.DateTime)">
+            <summary>
+            Consolida os lançamentos para uma data específica.
+            </summary>
+            <param name="data">A data para a qual a consolidação será feita.</param>
+            <returns>
+            Retorna o consolidado dos lançamentos do dia especificado.
+            </returns>
+            <response code="200">Retorna o consolidado dos lançamentos para o dia solicitado.</response>
+            <response code="204">Indica que não há lançamentos para a data fornecida.</response>
+            <response code="400">Se ocorrer um erro de validação ou entrada inválida.</response>
+            <response code="500">Se ocorrer um erro interno no servidor.</response>
+        </member>
+        <member name="M:CFM.Api.Controllers.ConsolidadoController.ConsolidarPorPeriodo(System.DateTime,System.DateTime)">
+            <summary>
+            Consolidar os lancamento em um intervalo.
+            </summary>
+            <param name="dataInicial">A data inicial do período para a consolidação.</param>
+            <param name="dataFinal">A data final do período para a consolidação.</param>
+            <returns>
+            Retorna um objeto <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> que pode representar:
+            <list type="bullet">
+            <item><description>200 OK: Dados consolidados, se encontrados.</description></item>
+            <item><description>204 No Content: Se não houver dados disponíveis para o período especificado.</description></item>
+            <item><description>400 Bad Request: Em caso de erro ao processar a solicitação.</description></item>
+            </list>
+            </returns>
+            <remarks>
+            Este método captura exceções e retorna uma mensagem de erro em caso de falha.
+            Os parâmetros <paramref name="dataInicial"/> e <paramref name="dataFinal"/> são obrigatórios e devem estar em formato <c>DateTime</c>.
+            </remarks>
+        </member>
+        <member name="M:CFM.Api.Controllers.ConsolidadoController.ConsolidarPorCategoria(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Consolidar os lançamentos de uma categoria específica em um intervalo de datas.
+            </summary>
+            <param name="categoria">O identificador da categoria para a consolidação.</param>
+            <param name="dataInicial">A data inicial do período para a consolidação.</param>
+            <param name="dataFinal">A data final do período para a consolidação.</param>
+            <returns>
+            Retorna um objeto <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> que pode representar:
+            <list type="bullet">
+            <item><description>200 OK: Dados consolidados, se encontrados.</description></item>
+            <item><description>204 No Content: Se não houver dados disponíveis para o período e categoria especificados.</description></item>
+            <item><description>400 Bad Request: Em caso de erro ao processar a solicitação.</description></item>
+            </list>
+            </returns>
+            <remarks>
+            Este método captura exceções e retorna uma mensagem de erro em caso de falha.
+            Os parâmetros <paramref name="categoria"/>, <paramref name="dataInicial"/> e <paramref name="dataFinal"/> são obrigatórios e devem estar em formato adequado.
+            </remarks>
+        </member>
+        <member name="M:CFM.Api.Controllers.LancamentoController.Create(CFM.Application.DTOs.LancamentoDTO)">
+            <summary>
+            Cria um novo lançamento.
+            </summary>
+            <param name="lancamentoDTO">Objeto lançamento a ser criado.</param>
+            <returns>O lançamento criado.</returns>
+            <response code="201">Retorna o lançamento recém-criado.</response>
+            <response code="400">Se os dados fornecidos forem inválidos.</response>
+        </member>
+        <member name="M:CFM.Api.Controllers.LancamentoController.Delete(System.Int32)">
+            <summary>
+            Exclui um lançamento.
+            </summary>
+            <param name="id">ID do lançamento a ser excluído.</param>
+            <returns>Sem conteúdo, indicando sucesso.</returns>
+            <response code="204">Lançamento excluído com sucesso.</response>
+            <response code="404">Se o lançamento não for encontrado.</response>
+        </member>
+        <member name="M:CFM.Api.Controllers.LancamentoController.Update(CFM.Application.DTOs.LancamentoDTO)">
+            <summary>
+            Atualiza um lançamento existente.
+            </summary>
+            <param name="lancamentoDTO">Objeto lançamento com as atualizações.</param>
+            <returns>Sem conteúdo, indicando sucesso.</returns>
+            <response code="204">Lançamento atualizado com sucesso.</response>
+            <response code="400">Se os dados fornecidos forem inválidos.</response>
+            <response code="404">Se o lançamento não for encontrado.</response>
+        </member>
+        <member name="M:CFM.Api.Controllers.LancamentoController.GetAll">
+            <summary>
+            Obtém todos os lançamentos.
+            </summary>
+            <returns>Lista de lançamentos.</returns>
+            <response code="200">Retorna a lista de lançamentos.</response>
+        </member>
+        <member name="M:CFM.Api.Controllers.LancamentoController.GetById(System.Int32)">
+            <summary>
+            Obtém um lançamento pelo ID.
+            </summary>
+            <param name="id">ID do lançamento.</param>
+            <returns>O lançamento correspondente ao ID fornecido.</returns>
+            <response code="200">Retorna o lançamento solicitado.</response>
+            <response code="404">Se o lançamento não for encontrado.</response>
+        </member>
+    </members>
+</doc>

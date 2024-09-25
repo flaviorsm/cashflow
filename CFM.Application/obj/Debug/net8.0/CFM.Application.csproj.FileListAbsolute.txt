@@ -1,0 +1,15 @@
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\bin\Debug\net8.0\CFM.Application.deps.json
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\bin\Debug\net8.0\CFM.Application.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\bin\Debug\net8.0\CFM.Application.pdb
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\bin\Debug\net8.0\CFM.Domain.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\bin\Debug\net8.0\CFM.Domain.pdb
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.csproj.AssemblyReference.cache
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.AssemblyInfoInputs.cache
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.AssemblyInfo.cs
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Appl.7401007E.Up2Date
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\refint\CFM.Application.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\CFM.Application.pdb
+C:\Projetos\suroutines\CashFlowManagement\CFM.Application\obj\Debug\net8.0\ref\CFM.Application.dll

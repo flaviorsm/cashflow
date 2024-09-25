@@ -1,0 +1,11 @@
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\bin\Debug\net8.0\CFM.Domain.deps.json
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\bin\Debug\net8.0\CFM.Domain.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\bin\Debug\net8.0\CFM.Domain.pdb
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.AssemblyInfoInputs.cache
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.AssemblyInfo.cs
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\refint\CFM.Domain.dll
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\CFM.Domain.pdb
+C:\Projetos\suroutines\CashFlowManagement\CFM.Domain\obj\Debug\net8.0\ref\CFM.Domain.dll

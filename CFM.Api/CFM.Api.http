@@ -1,0 +1,6 @@
+@CFM.Api_HostAddress = http://localhost:5048
+
+GET {{CFM.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
